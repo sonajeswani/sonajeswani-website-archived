@@ -1,3 +1,8 @@
+<title>Blog</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
 <link rel='stylesheet' id='font-awesome-css'  href='//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css' type='text/css' media='screen' />
 <link rel='stylesheet' id='portfolio-font-awesome-css'  href='//netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css?ver=4.5.0' type='text/css' media='all' />
 
@@ -11,7 +16,8 @@
 <link rel='stylesheet' id='googleFonts-css'  href='//fonts.googleapis.com/css?family=Raleway%3A800%7COswald%3A300%7CLibre+Baskerville%3A400%2C400italic%2C700&#038;ver=4.5.2' type='text/css' media='all' />
 
 
-   <!-- Custom CSS -->
+
+
     <link href="css/stylish-portfolio.css" rel="stylesheet">
 
     <!-- Custom CSS 
@@ -29,30 +35,32 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+<!-- Header -->
+    <!--<header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>Sona Jeswani</h1>
+                <hr>
+                <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attachejhjd!</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+            </div>
+        </div>
+    </header> 
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>Your Favorite Source of Free Bootstrap Themes</h1>
+                <hr>
+                <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+            </div>
+        </div>
+    </header> -->
 
 
-</head>
-<body>
-<div id = "wrapper">
 
-<!-- <header>
-     <%= link_to image_tag("berkeley.jpeg", alt: "beautiful berk"),
-    {:controller => 'welcome', :action => 'index'},
-    {:class => 'websiteLogo'} %> 
 
-    <%= link_to "Sona's Website", {:controller => 'pages', :action => 'home'},
-    {:class => 'websiteTitle'} %> 
-</header> -->
-
-<!--<nav id = "horzNav">
-<p>
-<%= link_to "Home", {:controller => 'pages', :action => 'home'} %>
-<%= link_to "About", {:controller => 'pages', :action => 'about'} %>
-<%= link_to "Directions", {:controller => 'pages', :action => 'directions'} %>
-</p>
-    </nav> -->
-
-    <!-- Nav bar bootstrap -->
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top" style="background-color:black">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -89,48 +97,16 @@
         <!-- /.container-fluid -->
     </nav>
 
-<%= yield %>
-
-</div>
-</body>
-
-
-
-
-
-
-<!-- Header -->
-    <!--<header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1>Sona Jeswani</h1>
-                <hr>
-                <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attachejhjd!</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
-            </div>
-        </div>
-    </header> 
-
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1>Your Favorite Source of Free Bootstrap Themes</h1>
-                <hr>
-                <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
-            </div>
-        </div>
-    </header> -->
 
     <header >
-	 <% link_to image_tag("berkeley.jpeg", alt: "beautiful berk"),
-	{:controller => 'welcome', :action => 'index'},
-	{:class => 'websiteLogo'} %> 
+     <% link_to image_tag("berkeley.jpeg", alt: "beautiful berk"),
+    {:controller => 'welcome', :action => 'index'},
+    {:class => 'websiteLogo'} %> 
 
-	<!--<%= link_to "Sona's Website", {:controller => 'pages', :action => 'home'},
-	{:class => 'websiteTitle'} %> -->
+    <!--<%= link_to "Sona's Website", {:controller => 'pages', :action => 'home'},
+    {:class => 'websiteTitle'} %> -->
 
-	    
+        
         <div class="container" id = "meee">
             <div class="row text-center">
                 
