@@ -20,8 +20,16 @@
 
 header {
 	margin:0;
-	padding-top: 500px;
-   background: url(http://cdn.innsight.com/1/assets/themes/berkeleyinn/images/Berkeley-Campinele.jpg);
+	padding-top: 470px;
+	color: white;
+
+   /*background: url(http://cdn.innsight.com/1/assets/themes/berkeleyinn/images/Berkeley-Campinele.jpg); */
+   background: url(https://c1.staticflickr.com/1/531/30952635494_01cf45cc61_h.jpg);
+   background-repeat: no-repeat;
+background-size: 78% 100%;
+background-color: #dbf1f5;
+   background-position: center; 
+
 
 } 
 
@@ -55,8 +63,9 @@ body {
 }
 
 .research {
-	margin: 10px;
-
+	margin: 6px;
+padding-top: 25px;
+padding-bottom: 25px;
 }
 
 .contact {
