@@ -68,6 +68,14 @@ padding-top: 25px;
 padding-bottom: 25px;
 }
 
+.designs {
+	margin: 12px;
+padding-top: 18px;
+padding-bottom: 300px;
+border-style: solid;
+
+}
+
 .contact {
 	text-align: center;
 	padding-top: 200px;
